@@ -16,7 +16,6 @@ view.onclick = () => {
     }, 200);
 }
 
-
 // close projects
 closebtn.onclick = () => {
     // close delay
@@ -33,4 +32,18 @@ closebtn.onclick = () => {
         layer2.style.display = 'none'  
         closebtn.style.display = "none"
     }, 1000); 
+}
+
+
+// open images 
+let images = document.querySelectorAll(".projects .project .img img")
+
+images.forEach(image => {
+    image.onclick = () => {
+        imageViewer.style.visibility = "visible"
+        document.querySelector("#imageViewer img").src = image.src
+    }
+})
+imageViewer.onclick = () => {
+    imageViewer.style.visibility = "hidden"
 }
