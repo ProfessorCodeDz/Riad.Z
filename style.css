@@ -282,12 +282,10 @@ footer section .skill img {
 }
 @media screen and (max-width: 768px) {
     .main {
-        /*flex-direction: column;*/
         height: auto;
         flex-wrap: wrap;
     }
     .main .social {
-        /*flex-direction: row;*/
         height: auto;
         margin: 20px;
     }
