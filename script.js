@@ -47,3 +47,10 @@ images.forEach(image => {
 imageViewer.onclick = () => {
     imageViewer.style.visibility = "hidden"
 }
+
+// delete loader
+window.onload = () => {
+    setTimeout(() => {
+        loader.remove()
+    },200)
+}
