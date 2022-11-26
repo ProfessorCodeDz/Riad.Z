@@ -260,6 +260,31 @@ footer section .skill img {
     width: 100%;
 }
 
+/*loader*/
+.loader {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+    background-color: #3D3231;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loader img {
+    width: 200px;
+    animation: loading 1s infinite linear;
+}
+@keyframes loading {
+    from{
+        transform: rotate(0deg);
+    }to{
+        transform: rotate(360deg);
+    }
+}
+
 /*MEDIA QUERIES*/
 @media screen and (max-width: 1300px) {
     .main .img {
@@ -282,10 +307,12 @@ footer section .skill img {
 }
 @media screen and (max-width: 768px) {
     .main {
+        /*flex-direction: column;*/
         height: auto;
         flex-wrap: wrap;
     }
     .main .social {
+        /*flex-direction: row;*/
         height: auto;
         margin: 20px;
     }
