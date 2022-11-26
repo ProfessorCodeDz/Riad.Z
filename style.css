@@ -282,16 +282,17 @@ footer section .skill img {
 }
 @media screen and (max-width: 768px) {
     .main {
-        flex-direction: column;
+        /*flex-direction: column;*/
         height: auto;
+        flex-wrap: wrap;
     }
     .main .social {
-        flex-direction: row;
+        /*flex-direction: row;*/
         height: auto;
         margin: 20px;
     }
     .main .social img {
-        margin: 0 20px;
+        margin: 30px;
     }
 
     .main .img{
@@ -299,15 +300,18 @@ footer section .skill img {
         border-radius: 0%;
         border-bottom-right-radius: 30%;
         border-bottom-left-radius: 30%;
+        margin: 30px;
     }
     .info h1 {
         font-size: 35px;
+        width: 100%;
         margin: 20px 0;
         font-weight: bold;
         letter-spacing: 5px;
     }
     .info p {
         width: 100%;
+        font-size: 25px;
     }
     footer {
         height: 100px;
