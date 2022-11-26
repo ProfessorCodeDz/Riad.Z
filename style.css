@@ -216,9 +216,7 @@ footer section .skill img {
     height: fit-content;
     transition: .5s ease-out;
 }
-.project .img img:hover {
-    transform: scale(2);
-}
+
 
 .project h3 {
     margin: 20px 0;
@@ -233,6 +231,11 @@ footer section .skill img {
 .project a {
     text-decoration: none;
 }
+.project .img:hover img {
+    filter: brightness(.8);
+    transform: scale(1.5);
+    cursor: pointer;
+}
 .project .links {
     display: flex;
 }
@@ -240,6 +243,23 @@ footer section .skill img {
     width: 30px;
     margin: 0 20px;
 }
+.projects #imageViewer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999999;
+    background-color: #CA9B5D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+}
+.projects #imageViewer img {
+    width: 100%;
+}
+
 /*MEDIA QUERIES*/
 @media screen and (max-width: 1300px) {
     .main .img {
