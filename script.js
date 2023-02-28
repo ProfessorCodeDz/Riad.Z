@@ -50,7 +50,5 @@ imageViewer.onclick = () => {
 
 // delete loader
 window.onload = () => {
-    setTimeout(() => {
-        loader.remove()
-    },200)
+    loader.remove()
 }
