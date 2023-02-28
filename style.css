@@ -134,6 +134,7 @@ footer section .skill {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 footer section .skill img {
     width: 50px;
