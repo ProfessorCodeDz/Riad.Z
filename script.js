@@ -49,6 +49,7 @@ imageViewer.onclick = () => {
 }
 
 // delete loader
+/*
 window.onload = () => {
     loader.remove()
-}
+}*/
