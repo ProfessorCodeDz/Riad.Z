@@ -262,6 +262,7 @@ footer section .skill img {
 }
 
 /*loader*/
+/*
 .loader {
     width: 100%;
     height: 100%;
@@ -285,6 +286,7 @@ footer section .skill img {
         transform: rotate(360deg);
     }
 }
+*/
 
 /*MEDIA QUERIES*/
 @media screen and (max-width: 1300px) {
