@@ -9,7 +9,7 @@
 
 @font-face {
     font-family: queensides;
-    src: url(./assets/Queensides-3z7Ey.ttf);
+    src: url("./assets/Queensides-3z7Ey.ttf");
 }
 
 ::-moz-selection { /* Code for Firefox */
