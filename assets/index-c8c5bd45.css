@@ -300,6 +300,9 @@ img {
         width: 100%;
         border-top-right-radius: 0%;
         border-bottom-left-radius: 5%;
+        height: -webkit-fit-content;
+        height: -moz-fit-content;
+        height: fit-content;
     }
     .projects {
         width: 100%;
