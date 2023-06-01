@@ -5,7 +5,7 @@
 * Browsers: last 4 version
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,500;1,1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@300;400;700&display=swap');
 
 @font-face {
     font-family: queensides;
@@ -33,7 +33,7 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Sulphur Point', sans-serif;
     background-color: #dfdfdf;
 }
 img {
