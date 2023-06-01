@@ -5,7 +5,7 @@
 * Browsers: last 4 version
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,500;1,1000&display=swap');
 
 @font-face {
     font-family: queensides;
@@ -33,7 +33,7 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    font-family: queensides, serif;
+    font-family: 'Nunito Sans', sans-serif;
     background-color: #dfdfdf;
 }
 img {
