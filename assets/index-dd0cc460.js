@@ -6,11 +6,11 @@ window.onload = () => {
     let left = document.querySelector(".left")
     let top2 = document.querySelector(".top2")
     
-    top.style.top = '-45%'
-    top2.style.top = '-45%'
-    right.style.right = '-45%'
-    bottom.style.bottom = '-45%'
-    left.style.left = '-45%'
+    top.style.top = '-50%'
+    top2.style.top = '-50%'
+    right.style.right = '-50%'
+    bottom.style.bottom = '-50%'
+    left.style.left = '-50%'
 
     setTimeout(() => {
         document.querySelector(".loading").remove()
